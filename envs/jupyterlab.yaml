@@ -6,6 +6,7 @@ dependencies:
   - jupyterlab
   - nodejs
   - matplotlib
-  - scipy # only strictly necessary for the demo above
-  - pandas # only strictly necessary for the demo above
-  - seaborn # only strictly necessary for the demo above
+  - scipy # only strictly necessary for the demo notebook
+  - pandas # only strictly necessary for the demo notebook
+  - seaborn # only strictly necessary for the demo notebook
+  - pytest # only for testing
