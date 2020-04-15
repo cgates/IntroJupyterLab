@@ -1,0 +1,11 @@
+name: jupyterlab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - nodejs
+  - matplotlib
+  - scipy # only strictly necessary for the demo above
+  - pandas # only strictly necessary for the demo above
+  - seaborn # only strictly necessary for the demo above
