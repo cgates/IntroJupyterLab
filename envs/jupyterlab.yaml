@@ -6,7 +6,10 @@ dependencies:
   - jupyterlab
   - nodejs
   - matplotlib
-  - scipy # only strictly necessary for the demo notebook
-  - pandas # only strictly necessary for the demo notebook
-  - seaborn # only strictly necessary for the demo notebook
-  - pytest # only for testing
+  - ipywidgets # interactive UI components *
+  - scipy # for lorenz interactive demo *
+  - pandas # for data frame operations *
+  - seaborn # plotting library *
+  - pytest # for automated testing
+
+# * only strictly necessary for the demo notebook
