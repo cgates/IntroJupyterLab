@@ -5,6 +5,8 @@ Supporting files from a short talk on Jupyter Lab.
 4/14/2020 cgates
 
 
+[![Build Status](https://travis-ci.org/cgates/IntroJupyterLab.svg?branch=master)](https://travis-ci.org/cgates/IntroJupyterLab)
+
 ### To run BasicJupyterNotebook.ipynb:
 
 1. Clone this repo.
