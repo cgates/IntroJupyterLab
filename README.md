@@ -20,7 +20,10 @@ $ conda env create -f envs/jupyterlab.yaml
 $ conda activate jupyterlab
 ```
 
-3. Launch Jupyter Lab  
+3. Install ipywidgets (for interactive UI components)  
+```$ jupyter labextension install @jupyter-widgets/jupyterlab-manager```
+
+4. Launch Jupyter Lab  
 ```$ jupyter lab```  
 This will automatically spawn a new browser tab with a new workspace. You can exit by closing the tab and ctrl-C to stop the notebook server in the terminal. (The server process will prompt you to confirm.)
 

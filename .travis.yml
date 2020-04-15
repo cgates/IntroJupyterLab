@@ -20,6 +20,7 @@ install:
 
   - conda env create -n test-environment python=$TRAVIS_PYTHON_VERSION -f envs/jupyterlab.yaml
   - source activate test-environment
+  - jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
 script:
   - py.test
